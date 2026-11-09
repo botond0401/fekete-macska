@@ -9,6 +9,14 @@
   {
    "id": "g1",
    "date": "2026-08-07",
+   "location": "Budapest",
+   "seating": [
+    "Apa",
+    "Ádám",
+    "Levente",
+    "Botond"
+   ],
+   "starter": "Botond",
    "rounds": [
     {
      "Apa": 7,
@@ -111,6 +119,14 @@
   {
    "id": "g2",
    "date": "2026-08-20",
+   "location": "Budapest",
+   "seating": [
+    "Apa",
+    "Ádám",
+    "Levente",
+    "Botond"
+   ],
+   "starter": "Levente",
    "rounds": [
     {
      "Apa": 7,
@@ -231,6 +247,14 @@
   {
    "id": "g3",
    "date": "2026-09-04",
+   "location": "Szombathely",
+   "seating": [
+    "Apa",
+    "Ádám",
+    "Levente",
+    "Botond"
+   ],
+   "starter": "Botond",
    "rounds": [
     {
      "Apa": 12,
@@ -345,6 +369,14 @@
   {
    "id": "g4",
    "date": "2026-09-18",
+   "location": "Balatonszepezd",
+   "seating": [
+    "Apa",
+    "Ádám",
+    "Levente",
+    "Botond"
+   ],
+   "starter": "Levente",
    "rounds": [
     {
      "Apa": 2,
@@ -471,6 +503,14 @@
   {
    "id": "g5",
    "date": "2026-09-30",
+   "location": "Szombathely",
+   "seating": [
+    "Apa",
+    "Levente",
+    "Botond",
+    "Ádám"
+   ],
+   "starter": "Ádám",
    "rounds": [
     {
      "Apa": 5,
@@ -573,6 +613,14 @@
   {
    "id": "g6",
    "date": "2026-10-13",
+   "location": "Szombathely",
+   "seating": [
+    "Apa",
+    "Levente",
+    "Ádám",
+    "Botond"
+   ],
+   "starter": "Apa",
    "rounds": [
     {
      "Apa": 8,
@@ -687,6 +735,14 @@
   {
    "id": "g7",
    "date": "2026-10-25",
+   "location": "Balatonszepezd",
+   "seating": [
+    "Apa",
+    "Levente",
+    "Botond",
+    "Ádám"
+   ],
+   "starter": "Botond",
    "rounds": [
     {
      "Apa": 2,
@@ -813,6 +869,14 @@
   {
    "id": "g8",
    "date": "2026-11-03",
+   "location": "Balatonszepezd",
+   "seating": [
+    "Apa",
+    "Ádám",
+    "Levente",
+    "Botond"
+   ],
+   "starter": "Levente",
    "rounds": [
     {
      "Apa": 4,

@@ -48,10 +48,9 @@ export function playerStats(data) {
       s.games++;
       s.places[places[p] - 1]++;
       s.totalPoints += totals[p];
-      for (const r of g.rounds) {
-        if ((r[p] || 0) === 0) s.zeroRounds++;
-        if ((r[p] || 0) === ROUND_TOTAL) s.bumszli++;
-      }
+      const c = playerGameCounts(g, p);
+      s.zeroRounds += c.zero;
+      s.bumszli += c.bumszli;
     }
   }
 
@@ -68,6 +67,31 @@ export function playerStats(data) {
   }).sort((a, b) =>
     b.places[0] - a.places[0] || b.places[1] - a.places[1] || b.places[2] - a.places[2] || a.avgPoints - b.avgPoints
   );
+}
+
+// Seating is circular, so it's normalized to always start with the first
+// player (Apa); the other three in seat order give 3! = 6 possible orders.
+export function seatingLabel(game, players) {
+  const seats = game.seating || [];
+  const start = seats.indexOf(players[0]);
+  if (start === -1) return "";
+  return [...seats.slice(start), ...seats.slice(0, start)].join(" – ");
+}
+
+export function allSeatingLabels(players) {
+  const [anchor, ...rest] = players;
+  const perms = arr => arr.length <= 1 ? [arr]
+    : arr.flatMap((x, i) => perms([...arr.slice(0, i), ...arr.slice(i + 1)]).map(p => [x, ...p]));
+  return perms(rest).map(p => [anchor, ...p].join(" – "));
+}
+
+export function playerGameCounts(game, player) {
+  let zero = 0, bumszli = 0;
+  for (const r of game.rounds) {
+    if ((r[player] || 0) === 0) zero++;
+    if ((r[player] || 0) === ROUND_TOTAL) bumszli++;
+  }
+  return { zero, bumszli };
 }
 
 export function formatDate(iso) {

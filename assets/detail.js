@@ -1,4 +1,6 @@
-import { loadData, finalScores, placements, cumulative, formatDate, ROUND_TOTAL } from "./data.js";
+import {
+  loadData, finalScores, placements, cumulative, formatDate, seatingLabel, playerGameCounts, ROUND_TOTAL,
+} from "./data.js";
 
 const statusEl = document.getElementById("status");
 
@@ -26,15 +28,27 @@ function cell(points) {
     document.getElementById("subtitle").textContent = `${index + 1}. játszma · ${game.rounds.length} kör`;
     document.title = `${formatDate(game.date)} · Kovács család: Fekete Macska`;
 
+    const meta = [
+      ["Helyszín", game.location],
+      ["Sorrend", seatingLabel(game, players)],
+      ["Kezdőjátékos", game.starter],
+    ].filter(([, v]) => v);
+    document.getElementById("meta").innerHTML = meta.map(([k, v]) => `<span>${k}: <b>${v}</b></span>`).join("");
+
     const ordered = [...players].sort((a, b) => totals[a] - totals[b]);
-    document.getElementById("result").innerHTML = ordered.map(p => `
+    document.getElementById("result").innerHTML = ordered.map(p => {
+      const c = playerGameCounts(game, p);
+      return `
       <li>
         <div class="rank-row">
           <span class="rank-num">${places[p]}.</span>
           <span class="rank-name">${p}</span>
-          <span class="rank-wins">${totals[p]} pont</span>
+          <span class="rank-wins">${totals[p]} pont
+            <span class="result-meta">${c.bumszli} bumszli · ${c.zero} nullázás</span>
+          </span>
         </div>
-      </li>`).join("");
+      </li>`;
+    }).join("");
 
     document.getElementById("thead").innerHTML =
       `<tr><th>Kör</th>${players.map(p => `<th>${p}</th>`).join("")}</tr>`;

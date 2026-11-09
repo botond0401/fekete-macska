@@ -17,13 +17,31 @@
 
   <div id="status" class="status"></div>
 
-  <div class="table-wrap">
-    <table>
-      <thead id="thead"></thead>
-      <tbody id="tbody"></tbody>
-    </table>
-  </div>
-  <p class="legend">Végső pontszámok · félkövér: győztes</p>
+  <section>
+    <div class="table-wrap">
+      <table class="games-table">
+        <thead id="thead"></thead>
+        <tbody id="tbody"></tbody>
+      </table>
+    </div>
+    <p class="legend">Végső pontszámok · félkövér: győztes</p>
+  </section>
+
+  <section>
+    <div class="section-head">
+      <h2>Összesítés</h2>
+      <div class="segmented" role="tablist" id="summary-switch">
+        <button role="tab" aria-selected="true" data-mode="seating">Sorrend</button>
+        <button role="tab" aria-selected="false" data-mode="starter">Kezdőjátékos</button>
+      </div>
+    </div>
+    <div class="table-wrap">
+      <table class="summary-table">
+        <thead id="summary-head"></thead>
+        <tbody id="summary-body"></tbody>
+      </table>
+    </div>
+  </section>
 </div>
 
 <script type="module" src="../assets/list.js"></script>

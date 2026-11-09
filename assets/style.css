@@ -173,7 +173,7 @@ section { margin-bottom: 40px; }
   font-variant-numeric: tabular-nums;
 }
 .rank-name { font-weight: 600; font-size: 1.02rem; }
-.rank-wins { font-size: 0.85rem; color: var(--text-secondary); font-variant-numeric: tabular-nums; }
+.rank-wins { font-size: 0.85rem; color: var(--text-secondary); font-variant-numeric: tabular-nums; text-align: right; }
 .chevron {
   width: 8px; height: 8px;
   border-right: 1.5px solid var(--text-muted);
@@ -275,6 +275,81 @@ tfoot td {
 .mark.zero { color: var(--place-2); }
 .mark.bumszli { color: #d03b3b; }
 
+td.text { text-align: left; }
+.games-table th:nth-child(2),
+.games-table th:nth-child(8),
+.games-table th:nth-child(9) { text-align: left; }
+/* Keep the date visible while scrolling the wide table sideways on phones. */
+.games-table th:first-child,
+.games-table td:first-child {
+  position: sticky;
+  left: 0;
+  z-index: 1;
+  background: var(--surface);
+}
+.games-table tbody tr.clickable:hover td:first-child { background: var(--page); }
+
+.section-head {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+.section-head h2 { margin: 0; }
+
+.segmented {
+  display: inline-flex;
+  padding: 3px;
+  border-radius: 9px;
+  background: var(--gridline);
+}
+.segmented button {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 7px;
+  background: none;
+  color: var(--text-secondary);
+  font: inherit;
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.segmented button[aria-selected="true"] {
+  background: var(--surface);
+  color: var(--text-primary);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12);
+}
+
+.summary-table td:nth-child(2) { font-weight: 600; }
+.summary-table .bar-col { width: 28%; }
+.share-bar {
+  display: block;
+  height: 6px;
+  min-width: 0;
+  border-radius: 3px;
+  background: var(--accent);
+}
+.summary-table tr.zero-row td { color: var(--text-muted); font-weight: 400; }
+
+.result-meta {
+  display: block;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  margin-top: 2px;
+  text-align: right;
+}
+.game-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 18px;
+  margin: 10px 0 0;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+.game-meta b { color: var(--text-primary); font-weight: 600; }
+
 .legend {
   display: flex;
   gap: 16px;
@@ -292,4 +367,6 @@ tfoot td {
   th:first-child, td:first-child { padding-left: 12px; }
   th:last-child, td:last-child { padding-right: 12px; }
   thead th { font-size: 0.64rem; letter-spacing: 0.02em; }
+  .summary-table .bar-col { display: none; }
+  .summary-table td:first-child { white-space: normal; }
 }

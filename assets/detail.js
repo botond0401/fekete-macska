@@ -24,16 +24,15 @@ function cell(points) {
 
     document.getElementById("title").textContent = formatDate(game.date);
     document.getElementById("subtitle").textContent = `${index + 1}. játszma · ${game.rounds.length} kör`;
-    document.title = `${formatDate(game.date)} · Fekete macska`;
+    document.title = `${formatDate(game.date)} · Kovács család: Fekete Macska`;
 
     const ordered = [...players].sort((a, b) => totals[a] - totals[b]);
     document.getElementById("result").innerHTML = ordered.map(p => `
       <li>
-        <div class="rank-row" style="cursor:default">
+        <div class="rank-row">
           <span class="rank-num">${places[p]}.</span>
           <span class="rank-name">${p}</span>
           <span class="rank-wins">${totals[p]} pont</span>
-          <span></span>
         </div>
       </li>`).join("");
 

@@ -4,14 +4,16 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
-<title>Fekete macska</title>
+<title>Kovács család: Fekete Macska</title>
 <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
 <div class="page">
-  <header>
-    <p class="eyebrow">Kártyajáték</p>
-    <h1>Fekete macska</h1>
+  <header class="hero">
+    <div class="hero-text">
+      <p class="hero-eyebrow">Kovács család</p>
+      <h1>Fekete Macska</h1>
+    </div>
   </header>
 
   <div id="status" class="status"></div>
@@ -33,6 +35,15 @@
   <section>
     <h2>Rangsor</h2>
     <ol class="ranking" id="ranking"></ol>
+    <button class="toggle" id="details-toggle" aria-expanded="false" aria-controls="details">
+      Részletes statisztika <span class="chevron"></span>
+    </button>
+    <div class="table-wrap" id="details" hidden>
+      <table class="stats-table">
+        <thead id="details-head"></thead>
+        <tbody id="details-body"></tbody>
+      </table>
+    </div>
   </section>
 
   <section>

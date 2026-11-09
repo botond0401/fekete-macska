@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Fekete macska</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="page">
+  <header>
+    <p class="eyebrow">Kártyajáték</p>
+    <h1>Fekete macska</h1>
+  </header>
+
+  <div id="status" class="status"></div>
+
+  <section>
+    <div class="tiles">
+      <div class="tile">
+        <div class="tile-label">Rögzített játszmák</div>
+        <div class="tile-value" id="game-count">–</div>
+      </div>
+      <div class="tile">
+        <div class="tile-label">Utolsó játszma</div>
+        <div class="tile-value small" id="last-date">–</div>
+        <div class="tile-sub" id="last-ago"></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Rangsor</h2>
+    <ol class="ranking" id="ranking"></ol>
+  </section>
+
+  <section>
+    <a class="nav-link" href="jatszmak/">Összes játszma <span class="chevron"></span></a>
+  </section>
+</div>
+
+<script type="module" src="assets/main.js"></script>
+</body>
+</html>

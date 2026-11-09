@@ -1,0 +1,928 @@
+{
+ "players": [
+  "Apa",
+  "Levente",
+  "Ádám",
+  "Botond"
+ ],
+ "games": [
+  {
+   "id": "g1",
+   "date": "2026-08-07",
+   "rounds": [
+    {
+     "Apa": 7,
+     "Levente": 8,
+     "Ádám": 3,
+     "Botond": 0
+    },
+    {
+     "Apa": 2,
+     "Levente": 9,
+     "Ádám": 5,
+     "Botond": 2
+    },
+    {
+     "Apa": 7,
+     "Levente": 2,
+     "Ádám": 7,
+     "Botond": 2
+    },
+    {
+     "Apa": 2,
+     "Levente": 7,
+     "Ádám": 9,
+     "Botond": 0
+    },
+    {
+     "Apa": 0,
+     "Levente": 9,
+     "Ádám": 7,
+     "Botond": 2
+    },
+    {
+     "Apa": 3,
+     "Levente": 1,
+     "Ádám": 9,
+     "Botond": 5
+    },
+    {
+     "Apa": 0,
+     "Levente": 1,
+     "Ádám": 15,
+     "Botond": 2
+    },
+    {
+     "Apa": 4,
+     "Levente": 2,
+     "Ádám": 10,
+     "Botond": 2
+    },
+    {
+     "Apa": 7,
+     "Levente": 9,
+     "Ádám": 0,
+     "Botond": 2
+    },
+    {
+     "Apa": 7,
+     "Levente": 3,
+     "Ádám": 0,
+     "Botond": 8
+    },
+    {
+     "Apa": 1,
+     "Levente": 8,
+     "Ádám": 9,
+     "Botond": 0
+    },
+    {
+     "Apa": 1,
+     "Levente": 0,
+     "Ádám": 4,
+     "Botond": 13
+    },
+    {
+     "Apa": 11,
+     "Levente": 6,
+     "Ádám": 1,
+     "Botond": 0
+    },
+    {
+     "Apa": 0,
+     "Levente": 18,
+     "Ádám": 0,
+     "Botond": 0
+    },
+    {
+     "Apa": 1,
+     "Levente": 2,
+     "Ádám": 13,
+     "Botond": 2
+    },
+    {
+     "Apa": 1,
+     "Levente": 1,
+     "Ádám": 13,
+     "Botond": 3
+    }
+   ]
+  },
+  {
+   "id": "g2",
+   "date": "2026-08-20",
+   "rounds": [
+    {
+     "Apa": 7,
+     "Levente": 3,
+     "Ádám": 5,
+     "Botond": 3
+    },
+    {
+     "Apa": 0,
+     "Levente": 2,
+     "Ádám": 8,
+     "Botond": 8
+    },
+    {
+     "Apa": 2,
+     "Levente": 2,
+     "Ádám": 2,
+     "Botond": 12
+    },
+    {
+     "Apa": 12,
+     "Levente": 2,
+     "Ádám": 2,
+     "Botond": 2
+    },
+    {
+     "Apa": 1,
+     "Levente": 2,
+     "Ádám": 6,
+     "Botond": 9
+    },
+    {
+     "Apa": 2,
+     "Levente": 2,
+     "Ádám": 9,
+     "Botond": 5
+    },
+    {
+     "Apa": 3,
+     "Levente": 0,
+     "Ádám": 13,
+     "Botond": 2
+    },
+    {
+     "Apa": 6,
+     "Levente": 0,
+     "Ádám": 3,
+     "Botond": 9
+    },
+    {
+     "Apa": 2,
+     "Levente": 5,
+     "Ádám": 8,
+     "Botond": 3
+    },
+    {
+     "Apa": 8,
+     "Levente": 0,
+     "Ádám": 2,
+     "Botond": 8
+    },
+    {
+     "Apa": 9,
+     "Levente": 0,
+     "Ádám": 6,
+     "Botond": 3
+    },
+    {
+     "Apa": 13,
+     "Levente": 0,
+     "Ádám": 3,
+     "Botond": 2
+    },
+    {
+     "Apa": 3,
+     "Levente": 5,
+     "Ádám": 8,
+     "Botond": 2
+    },
+    {
+     "Apa": 0,
+     "Levente": 12,
+     "Ádám": 2,
+     "Botond": 4
+    },
+    {
+     "Apa": 1,
+     "Levente": 5,
+     "Ádám": 1,
+     "Botond": 11
+    },
+    {
+     "Apa": 6,
+     "Levente": 2,
+     "Ádám": 8,
+     "Botond": 2
+    },
+    {
+     "Apa": 1,
+     "Levente": 8,
+     "Ádám": 8,
+     "Botond": 1
+    },
+    {
+     "Apa": 8,
+     "Levente": 3,
+     "Ádám": 1,
+     "Botond": 6
+    },
+    {
+     "Apa": 1,
+     "Levente": 4,
+     "Ádám": 8,
+     "Botond": 5
+    }
+   ]
+  },
+  {
+   "id": "g3",
+   "date": "2026-09-04",
+   "rounds": [
+    {
+     "Apa": 12,
+     "Levente": 3,
+     "Ádám": 1,
+     "Botond": 2
+    },
+    {
+     "Apa": 2,
+     "Levente": 3,
+     "Ádám": 8,
+     "Botond": 5
+    },
+    {
+     "Apa": 1,
+     "Levente": 8,
+     "Ádám": 6,
+     "Botond": 3
+    },
+    {
+     "Apa": 2,
+     "Levente": 1,
+     "Ádám": 9,
+     "Botond": 6
+    },
+    {
+     "Apa": 0,
+     "Levente": 12,
+     "Ádám": 4,
+     "Botond": 2
+    },
+    {
+     "Apa": 6,
+     "Levente": 0,
+     "Ádám": 8,
+     "Botond": 4
+    },
+    {
+     "Apa": 8,
+     "Levente": 2,
+     "Ádám": 7,
+     "Botond": 1
+    },
+    {
+     "Apa": 2,
+     "Levente": 11,
+     "Ádám": 0,
+     "Botond": 5
+    },
+    {
+     "Apa": 9,
+     "Levente": 3,
+     "Ádám": 1,
+     "Botond": 5
+    },
+    {
+     "Apa": 2,
+     "Levente": 2,
+     "Ádám": 1,
+     "Botond": 13
+    },
+    {
+     "Apa": 1,
+     "Levente": 1,
+     "Ádám": 14,
+     "Botond": 2
+    },
+    {
+     "Apa": 1,
+     "Levente": 0,
+     "Ádám": 7,
+     "Botond": 10
+    },
+    {
+     "Apa": 9,
+     "Levente": 1,
+     "Ádám": 6,
+     "Botond": 2
+    },
+    {
+     "Apa": 0,
+     "Levente": 18,
+     "Ádám": 0,
+     "Botond": 0
+    },
+    {
+     "Apa": 2,
+     "Levente": 7,
+     "Ádám": 7,
+     "Botond": 2
+    },
+    {
+     "Apa": 0,
+     "Levente": 3,
+     "Ádám": 13,
+     "Botond": 2
+    },
+    {
+     "Apa": 9,
+     "Levente": 2,
+     "Ádám": 6,
+     "Botond": 1
+    },
+    {
+     "Apa": 7,
+     "Levente": 2,
+     "Ádám": 9,
+     "Botond": 0
+    }
+   ]
+  },
+  {
+   "id": "g4",
+   "date": "2026-09-18",
+   "rounds": [
+    {
+     "Apa": 2,
+     "Levente": 11,
+     "Ádám": 1,
+     "Botond": 4
+    },
+    {
+     "Apa": 2,
+     "Levente": 1,
+     "Ádám": 9,
+     "Botond": 6
+    },
+    {
+     "Apa": 2,
+     "Levente": 8,
+     "Ádám": 7,
+     "Botond": 1
+    },
+    {
+     "Apa": 2,
+     "Levente": 2,
+     "Ádám": 7,
+     "Botond": 7
+    },
+    {
+     "Apa": 7,
+     "Levente": 9,
+     "Ádám": 1,
+     "Botond": 1
+    },
+    {
+     "Apa": 1,
+     "Levente": 7,
+     "Ádám": 1,
+     "Botond": 9
+    },
+    {
+     "Apa": 1,
+     "Levente": 0,
+     "Ádám": 14,
+     "Botond": 3
+    },
+    {
+     "Apa": 2,
+     "Levente": 6,
+     "Ádám": 2,
+     "Botond": 8
+    },
+    {
+     "Apa": 2,
+     "Levente": 7,
+     "Ádám": 2,
+     "Botond": 7
+    },
+    {
+     "Apa": 10,
+     "Levente": 6,
+     "Ádám": 0,
+     "Botond": 2
+    },
+    {
+     "Apa": 0,
+     "Levente": 14,
+     "Ádám": 2,
+     "Botond": 2
+    },
+    {
+     "Apa": 1,
+     "Levente": 13,
+     "Ádám": 2,
+     "Botond": 2
+    },
+    {
+     "Apa": 2,
+     "Levente": 1,
+     "Ádám": 8,
+     "Botond": 7
+    },
+    {
+     "Apa": 12,
+     "Levente": 2,
+     "Ádám": 0,
+     "Botond": 4
+    },
+    {
+     "Apa": 4,
+     "Levente": 0,
+     "Ádám": 5,
+     "Botond": 9
+    },
+    {
+     "Apa": 12,
+     "Levente": 2,
+     "Ádám": 3,
+     "Botond": 1
+    },
+    {
+     "Apa": 1,
+     "Levente": 3,
+     "Ádám": 10,
+     "Botond": 4
+    },
+    {
+     "Apa": 1,
+     "Levente": 3,
+     "Ádám": 13,
+     "Botond": 1
+    },
+    {
+     "Apa": 8,
+     "Levente": 4,
+     "Ádám": 5,
+     "Botond": 1
+    },
+    {
+     "Apa": 0,
+     "Levente": 7,
+     "Ádám": 1,
+     "Botond": 10
+    }
+   ]
+  },
+  {
+   "id": "g5",
+   "date": "2026-09-30",
+   "rounds": [
+    {
+     "Apa": 5,
+     "Levente": 9,
+     "Ádám": 2,
+     "Botond": 2
+    },
+    {
+     "Apa": 3,
+     "Levente": 1,
+     "Ádám": 4,
+     "Botond": 10
+    },
+    {
+     "Apa": 2,
+     "Levente": 13,
+     "Ádám": 1,
+     "Botond": 2
+    },
+    {
+     "Apa": 2,
+     "Levente": 7,
+     "Ádám": 0,
+     "Botond": 9
+    },
+    {
+     "Apa": 9,
+     "Levente": 3,
+     "Ádám": 1,
+     "Botond": 5
+    },
+    {
+     "Apa": 3,
+     "Levente": 1,
+     "Ádám": 0,
+     "Botond": 14
+    },
+    {
+     "Apa": 4,
+     "Levente": 4,
+     "Ádám": 2,
+     "Botond": 8
+    },
+    {
+     "Apa": 1,
+     "Levente": 12,
+     "Ádám": 2,
+     "Botond": 3
+    },
+    {
+     "Apa": 1,
+     "Levente": 7,
+     "Ádám": 5,
+     "Botond": 5
+    },
+    {
+     "Apa": 7,
+     "Levente": 2,
+     "Ádám": 7,
+     "Botond": 2
+    },
+    {
+     "Apa": 2,
+     "Levente": 8,
+     "Ádám": 5,
+     "Botond": 3
+    },
+    {
+     "Apa": 1,
+     "Levente": 8,
+     "Ádám": 3,
+     "Botond": 6
+    },
+    {
+     "Apa": 2,
+     "Levente": 10,
+     "Ádám": 4,
+     "Botond": 2
+    },
+    {
+     "Apa": 1,
+     "Levente": 1,
+     "Ádám": 6,
+     "Botond": 10
+    },
+    {
+     "Apa": 3,
+     "Levente": 8,
+     "Ádám": 1,
+     "Botond": 6
+    },
+    {
+     "Apa": 1,
+     "Levente": 13,
+     "Ádám": 2,
+     "Botond": 2
+    }
+   ]
+  },
+  {
+   "id": "g6",
+   "date": "2026-10-13",
+   "rounds": [
+    {
+     "Apa": 8,
+     "Levente": 4,
+     "Ádám": 6,
+     "Botond": 0
+    },
+    {
+     "Apa": 9,
+     "Levente": 2,
+     "Ádám": 6,
+     "Botond": 1
+    },
+    {
+     "Apa": 0,
+     "Levente": 15,
+     "Ádám": 2,
+     "Botond": 1
+    },
+    {
+     "Apa": 2,
+     "Levente": 6,
+     "Ádám": 1,
+     "Botond": 9
+    },
+    {
+     "Apa": 6,
+     "Levente": 0,
+     "Ádám": 10,
+     "Botond": 2
+    },
+    {
+     "Apa": 2,
+     "Levente": 1,
+     "Ádám": 3,
+     "Botond": 12
+    },
+    {
+     "Apa": 2,
+     "Levente": 1,
+     "Ádám": 8,
+     "Botond": 7
+    },
+    {
+     "Apa": 2,
+     "Levente": 13,
+     "Ádám": 0,
+     "Botond": 3
+    },
+    {
+     "Apa": 9,
+     "Levente": 2,
+     "Ádám": 2,
+     "Botond": 5
+    },
+    {
+     "Apa": 1,
+     "Levente": 6,
+     "Ádám": 11,
+     "Botond": 0
+    },
+    {
+     "Apa": 8,
+     "Levente": 2,
+     "Ádám": 6,
+     "Botond": 2
+    },
+    {
+     "Apa": 11,
+     "Levente": 2,
+     "Ádám": 5,
+     "Botond": 0
+    },
+    {
+     "Apa": 2,
+     "Levente": 1,
+     "Ádám": 2,
+     "Botond": 13
+    },
+    {
+     "Apa": 2,
+     "Levente": 0,
+     "Ádám": 1,
+     "Botond": 15
+    },
+    {
+     "Apa": 2,
+     "Levente": 2,
+     "Ádám": 4,
+     "Botond": 10
+    },
+    {
+     "Apa": 3,
+     "Levente": 2,
+     "Ádám": 5,
+     "Botond": 8
+    },
+    {
+     "Apa": 1,
+     "Levente": 1,
+     "Ádám": 7,
+     "Botond": 9
+    },
+    {
+     "Apa": 0,
+     "Levente": 6,
+     "Ádám": 2,
+     "Botond": 10
+    }
+   ]
+  },
+  {
+   "id": "g7",
+   "date": "2026-10-25",
+   "rounds": [
+    {
+     "Apa": 2,
+     "Levente": 1,
+     "Ádám": 12,
+     "Botond": 3
+    },
+    {
+     "Apa": 7,
+     "Levente": 8,
+     "Ádám": 2,
+     "Botond": 1
+    },
+    {
+     "Apa": 3,
+     "Levente": 10,
+     "Ádám": 5,
+     "Botond": 0
+    },
+    {
+     "Apa": 3,
+     "Levente": 1,
+     "Ádám": 2,
+     "Botond": 12
+    },
+    {
+     "Apa": 1,
+     "Levente": 3,
+     "Ádám": 10,
+     "Botond": 4
+    },
+    {
+     "Apa": 6,
+     "Levente": 2,
+     "Ádám": 8,
+     "Botond": 2
+    },
+    {
+     "Apa": 3,
+     "Levente": 11,
+     "Ádám": 3,
+     "Botond": 1
+    },
+    {
+     "Apa": 1,
+     "Levente": 0,
+     "Ádám": 9,
+     "Botond": 8
+    },
+    {
+     "Apa": 2,
+     "Levente": 9,
+     "Ádám": 5,
+     "Botond": 2
+    },
+    {
+     "Apa": 7,
+     "Levente": 3,
+     "Ádám": 2,
+     "Botond": 6
+    },
+    {
+     "Apa": 0,
+     "Levente": 7,
+     "Ádám": 0,
+     "Botond": 11
+    },
+    {
+     "Apa": 0,
+     "Levente": 4,
+     "Ádám": 11,
+     "Botond": 3
+    },
+    {
+     "Apa": 7,
+     "Levente": 2,
+     "Ádám": 1,
+     "Botond": 8
+    },
+    {
+     "Apa": 7,
+     "Levente": 0,
+     "Ádám": 11,
+     "Botond": 0
+    },
+    {
+     "Apa": 5,
+     "Levente": 7,
+     "Ádám": 0,
+     "Botond": 6
+    },
+    {
+     "Apa": 12,
+     "Levente": 1,
+     "Ádám": 2,
+     "Botond": 3
+    },
+    {
+     "Apa": 1,
+     "Levente": 16,
+     "Ádám": 1,
+     "Botond": 0
+    },
+    {
+     "Apa": 1,
+     "Levente": 6,
+     "Ádám": 9,
+     "Botond": 2
+    },
+    {
+     "Apa": 3,
+     "Levente": 2,
+     "Ádám": 0,
+     "Botond": 13
+    },
+    {
+     "Apa": 0,
+     "Levente": 0,
+     "Ádám": 0,
+     "Botond": 18
+    }
+   ]
+  },
+  {
+   "id": "g8",
+   "date": "2026-11-03",
+   "rounds": [
+    {
+     "Apa": 4,
+     "Levente": 0,
+     "Ádám": 4,
+     "Botond": 10
+    },
+    {
+     "Apa": 5,
+     "Levente": 8,
+     "Ádám": 2,
+     "Botond": 3
+    },
+    {
+     "Apa": 0,
+     "Levente": 7,
+     "Ádám": 8,
+     "Botond": 3
+    },
+    {
+     "Apa": 5,
+     "Levente": 0,
+     "Ádám": 11,
+     "Botond": 2
+    },
+    {
+     "Apa": 0,
+     "Levente": 13,
+     "Ádám": 4,
+     "Botond": 1
+    },
+    {
+     "Apa": 0,
+     "Levente": 1,
+     "Ádám": 11,
+     "Botond": 6
+    },
+    {
+     "Apa": 8,
+     "Levente": 3,
+     "Ádám": 4,
+     "Botond": 3
+    },
+    {
+     "Apa": 2,
+     "Levente": 4,
+     "Ádám": 7,
+     "Botond": 5
+    },
+    {
+     "Apa": 0,
+     "Levente": 0,
+     "Ádám": 0,
+     "Botond": 18
+    },
+    {
+     "Apa": 1,
+     "Levente": 8,
+     "Ádám": 4,
+     "Botond": 5
+    },
+    {
+     "Apa": 0,
+     "Levente": 2,
+     "Ádám": 9,
+     "Botond": 7
+    },
+    {
+     "Apa": 1,
+     "Levente": 9,
+     "Ádám": 7,
+     "Botond": 1
+    },
+    {
+     "Apa": 1,
+     "Levente": 8,
+     "Ádám": 4,
+     "Botond": 5
+    },
+    {
+     "Apa": 6,
+     "Levente": 0,
+     "Ádám": 9,
+     "Botond": 3
+    },
+    {
+     "Apa": 0,
+     "Levente": 5,
+     "Ádám": 11,
+     "Botond": 2
+    },
+    {
+     "Apa": 6,
+     "Levente": 10,
+     "Ádám": 0,
+     "Botond": 2
+    },
+    {
+     "Apa": 0,
+     "Levente": 7,
+     "Ádám": 2,
+     "Botond": 9
+    },
+    {
+     "Apa": 1,
+     "Levente": 5,
+     "Ádám": 3,
+     "Botond": 9
+    }
+   ]
+  }
+ ]
+}

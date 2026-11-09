@@ -1,5 +1,4 @@
-// Swapped for the private data store once the UI is finalized.
-const DATA_URL = new URL("../data/mock.json", import.meta.url);
+const DATA_URL = new URL("../data/games.json", import.meta.url);
 
 export const ROUND_TOTAL = 18; // 7 red cards × 1 + red ace 4 + makk felső 7
 export const GAME_END = 100;

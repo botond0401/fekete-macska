@@ -1,13 +1,12 @@
 import {
-  loadData, finalScores, placements, cumulative, formatDate, seatingLabel, playerGameCounts, ROUND_TOTAL,
+  loadData, finalScores, placements, cumulative, formatDate, seatingLabel, seatingOrder, playerGameCounts, ROUND_TOTAL,
 } from "./data.js";
 
 const statusEl = document.getElementById("status");
 
-function cell(points) {
-  if (points === 0) return `<span class="mark zero">0</span>`;
-  if (points === ROUND_TOTAL) return `<span class="mark bumszli">${ROUND_TOTAL}</span>`;
-  return String(points);
+function roundPoints(points) {
+  const cls = points === 0 ? " zero" : points === ROUND_TOTAL ? " bumszli" : "";
+  return `<span class="round-pts${cls}">${points}</span>`;
 }
 
 (async function init() {
@@ -50,17 +49,19 @@ function cell(points) {
       </li>`;
     }).join("");
 
+    const order = seatingOrder(game, players);
+
     document.getElementById("thead").innerHTML =
-      `<tr><th>Kör</th>${players.map(p => `<th>${p}</th>`).join("")}</tr>`;
+      `<tr><th>Kör</th>${order.map(p => `<th>${p}</th>`).join("")}</tr>`;
 
     document.getElementById("tbody").innerHTML = game.rounds.map((r, i) => `
       <tr>
         <td class="muted">${i + 1}.</td>
-        ${players.map(p => `<td>${cell(r[p] || 0)}<span class="cum">${cum[i][p]}</span></td>`).join("")}
+        ${order.map(p => `<td><span class="cum">${cum[i][p]}</span>${roundPoints(r[p] || 0)}</td>`).join("")}
       </tr>`).join("");
 
     document.getElementById("tfoot").innerHTML =
-      `<tr><td>Összesen</td>${players.map(p => `<td>${totals[p]}</td>`).join("")}</tr>`;
+      `<tr><td>Összesen</td>${order.map(p => `<td>${totals[p]}</td>`).join("")}</tr>`;
   } catch (err) {
     statusEl.textContent = `Nem sikerült betölteni az adatokat: ${err.message}`;
   }

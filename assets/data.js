@@ -70,11 +70,15 @@ export function playerStats(data) {
 
 // Seating is circular, so it's normalized to always start with the first
 // player (Apa); the other three in seat order give 3! = 6 possible orders.
-export function seatingLabel(game, players) {
+export function seatingOrder(game, players) {
   const seats = game.seating || [];
   const start = seats.indexOf(players[0]);
-  if (start === -1) return "";
-  return [...seats.slice(start), ...seats.slice(0, start)].join(" – ");
+  if (start === -1) return players;
+  return [...seats.slice(start), ...seats.slice(0, start)];
+}
+
+export function seatingLabel(game, players) {
+  return game.seating ? seatingOrder(game, players).join(" – ") : "";
 }
 
 export function allSeatingLabels(players) {

@@ -270,7 +270,10 @@ tfoot td {
   border-top: 1px solid var(--border);
   font-weight: 650;
 }
-.cum { display: block; font-size: 0.72rem; color: var(--text-muted); font-weight: 400; }
+.cum { display: block; }
+.round-pts { display: block; font-size: 0.72rem; color: var(--text-muted); }
+.round-pts.zero { color: var(--place-2); font-weight: 650; }
+.round-pts.bumszli { color: #d03b3b; font-weight: 650; }
 .mark { font-weight: 650; }
 .mark.zero { color: var(--place-2); }
 .mark.bumszli { color: #d03b3b; }
@@ -339,6 +342,7 @@ td.text { text-align: left; }
   color: var(--text-muted);
   margin-top: 2px;
   text-align: right;
+  white-space: nowrap;
 }
 .game-meta {
   display: flex;

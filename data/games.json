@@ -7,6 +7,134 @@
  ],
  "games": [
   {
+   "id": "2026-11-06-1",
+   "date": "2026-11-06",
+   "location": "Dortmund",
+   "seating": [
+    "Apa",
+    "Levente",
+    "Botond",
+    "Ádám"
+   ],
+   "starter": "Apa",
+   "rounds": [
+    {
+     "Apa": 17,
+     "Levente": 0,
+     "Ádám": 0,
+     "Botond": 1
+    },
+    {
+     "Apa": 8,
+     "Levente": 0,
+     "Ádám": 10,
+     "Botond": 0
+    },
+    {
+     "Apa": 9,
+     "Levente": 4,
+     "Ádám": 5,
+     "Botond": 0
+    },
+    {
+     "Apa": 0,
+     "Levente": 0,
+     "Ádám": 0,
+     "Botond": 18
+    },
+    {
+     "Apa": 0,
+     "Levente": 14,
+     "Ádám": 4,
+     "Botond": 0
+    },
+    {
+     "Apa": 2,
+     "Levente": 8,
+     "Ádám": 3,
+     "Botond": 5
+    },
+    {
+     "Apa": 12,
+     "Levente": 0,
+     "Ádám": 0,
+     "Botond": 6
+    },
+    {
+     "Apa": 9,
+     "Levente": 7,
+     "Ádám": 1,
+     "Botond": 1
+    },
+    {
+     "Apa": 0,
+     "Levente": 10,
+     "Ádám": 1,
+     "Botond": 7
+    },
+    {
+     "Apa": 13,
+     "Levente": 1,
+     "Ádám": 0,
+     "Botond": 4
+    },
+    {
+     "Apa": 2,
+     "Levente": 0,
+     "Ádám": 16,
+     "Botond": 0
+    },
+    {
+     "Apa": 8,
+     "Levente": 0,
+     "Ádám": 10,
+     "Botond": 0
+    },
+    {
+     "Apa": 0,
+     "Levente": 8,
+     "Ádám": 2,
+     "Botond": 8
+    },
+    {
+     "Apa": 0,
+     "Levente": 7,
+     "Ádám": 3,
+     "Botond": 8
+    },
+    {
+     "Apa": 0,
+     "Levente": 2,
+     "Ádám": 16,
+     "Botond": 0
+    },
+    {
+     "Apa": 0,
+     "Levente": 0,
+     "Ádám": 0,
+     "Botond": 18
+    },
+    {
+     "Apa": 15,
+     "Levente": 0,
+     "Ádám": 0,
+     "Botond": 3
+    },
+    {
+     "Apa": 0,
+     "Levente": 0,
+     "Ádám": 8,
+     "Botond": 10
+    },
+    {
+     "Apa": 12,
+     "Levente": 0,
+     "Ádám": 6,
+     "Botond": 0
+    }
+   ]
+  },
+  {
    "id": "2026-11-07-1",
    "date": "2026-11-07",
    "location": "Dortmund",

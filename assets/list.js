@@ -8,6 +8,7 @@ const summaryBodyEl = document.getElementById("summary-body");
 const switchEl = document.getElementById("summary-switch");
 
 function shortDate(iso) {
+  if (!iso) return "ismeretlen";
   const [y, m, d] = iso.split("-").map(Number);
   const opts = { month: "short", day: "numeric" };
   if (y !== new Date().getFullYear()) opts.year = "numeric";

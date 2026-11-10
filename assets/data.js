@@ -7,7 +7,8 @@ export async function loadData() {
   const res = await fetch(DATA_URL, { cache: "no-store" });
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
   const data = await res.json();
-  data.games.sort((a, b) => a.date.localeCompare(b.date) || a.id.localeCompare(b.id));
+  // Undated games (date: null) sort as the oldest.
+  data.games.sort((a, b) => (a.date || "").localeCompare(b.date || "") || a.id.localeCompare(b.id));
   return data;
 }
 
@@ -98,6 +99,7 @@ export function playerGameCounts(game, player) {
 }
 
 export function formatDate(iso) {
+  if (!iso) return "Ismeretlen dátum";
   const [y, m, d] = iso.split("-").map(Number);
   return new Date(y, m - 1, d).toLocaleDateString("hu-HU", { year: "numeric", month: "long", day: "numeric" });
 }

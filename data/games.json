@@ -7,6 +7,140 @@
  ],
  "games": [
   {
+   "id": "undated-1",
+   "date": null,
+   "location": "Szombathely",
+   "seating": [
+    "Ádám",
+    "Apa",
+    "Botond",
+    "Levente"
+   ],
+   "starter": "Ádám",
+   "rounds": [
+    {
+     "Apa": 7,
+     "Levente": 7,
+     "Ádám": 0,
+     "Botond": 4
+    },
+    {
+     "Apa": 3,
+     "Levente": 1,
+     "Ádám": 4,
+     "Botond": 10
+    },
+    {
+     "Apa": 0,
+     "Levente": 4,
+     "Ádám": 6,
+     "Botond": 8
+    },
+    {
+     "Apa": 4,
+     "Levente": 0,
+     "Ádám": 0,
+     "Botond": 14
+    },
+    {
+     "Apa": 12,
+     "Levente": 5,
+     "Ádám": 0,
+     "Botond": 1
+    },
+    {
+     "Apa": 2,
+     "Levente": 6,
+     "Ádám": 0,
+     "Botond": 10
+    },
+    {
+     "Apa": 0,
+     "Levente": 3,
+     "Ádám": 10,
+     "Botond": 5
+    },
+    {
+     "Apa": 1,
+     "Levente": 0,
+     "Ádám": 5,
+     "Botond": 12
+    },
+    {
+     "Apa": 1,
+     "Levente": 8,
+     "Ádám": 7,
+     "Botond": 2
+    },
+    {
+     "Apa": 1,
+     "Levente": 11,
+     "Ádám": 2,
+     "Botond": 4
+    },
+    {
+     "Apa": 0,
+     "Levente": 0,
+     "Ádám": 14,
+     "Botond": 4
+    },
+    {
+     "Apa": 11,
+     "Levente": 0,
+     "Ádám": 7,
+     "Botond": 0
+    },
+    {
+     "Apa": 1,
+     "Levente": 17,
+     "Ádám": 0,
+     "Botond": 0
+    },
+    {
+     "Apa": 0,
+     "Levente": 18,
+     "Ádám": 0,
+     "Botond": 0
+    },
+    {
+     "Apa": 0,
+     "Levente": 1,
+     "Ádám": 17,
+     "Botond": 0
+    },
+    {
+     "Apa": 4,
+     "Levente": 5,
+     "Ádám": 9,
+     "Botond": 0
+    },
+    {
+     "Apa": 17,
+     "Levente": 0,
+     "Ádám": 0,
+     "Botond": 1
+    },
+    {
+     "Apa": 0,
+     "Levente": 11,
+     "Ádám": 0,
+     "Botond": 7
+    },
+    {
+     "Apa": 10,
+     "Levente": 1,
+     "Ádám": 7,
+     "Botond": 0
+    },
+    {
+     "Apa": 0,
+     "Levente": 3,
+     "Ádám": 5,
+     "Botond": 10
+    }
+   ]
+  },
+  {
    "id": "2023-11-04-1",
    "date": "2023-11-04",
    "location": "Szombathely",

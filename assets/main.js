@@ -67,7 +67,9 @@ toggleBtn.addEventListener("click", () => {
     if (games.length) {
       const avgRounds = games.reduce((sum, g) => sum + g.rounds.length, 0) / games.length;
       document.getElementById("avg-rounds").textContent = `átlag ${fmt(avgRounds)} kör / játszma`;
-      const last = games[games.length - 1].date;
+    }
+    const last = [...games].reverse().find(g => g.date)?.date;
+    if (last) {
       document.getElementById("last-date").textContent = formatDate(last);
       document.getElementById("last-ago").textContent = agoText(daysSince(last));
     }

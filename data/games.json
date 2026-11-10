@@ -120,7 +120,7 @@
     "Levente",
     "Apa"
    ],
-   "starter": "Apa",
+   "starter": "Ádám",
    "rounds": [
     {
      "Apa": 0,
@@ -199,6 +199,116 @@
      "Levente": 0,
      "Ádám": 1,
      "Botond": 17
+    }
+   ]
+  },
+  {
+   "id": "2023-12-26-2",
+   "date": "2023-12-26",
+   "location": "Szombathely",
+   "seating": [
+    "Ádám",
+    "Levente",
+    "Botond",
+    "Apa"
+   ],
+   "starter": "Ádám",
+   "rounds": [
+    {
+     "Apa": 0,
+     "Levente": 15,
+     "Ádám": 3,
+     "Botond": 0
+    },
+    {
+     "Apa": 15,
+     "Levente": 1,
+     "Ádám": 0,
+     "Botond": 2
+    },
+    {
+     "Apa": 0,
+     "Levente": 11,
+     "Ádám": 7,
+     "Botond": 0
+    },
+    {
+     "Apa": 17,
+     "Levente": 0,
+     "Ádám": 0,
+     "Botond": 1
+    },
+    {
+     "Apa": 0,
+     "Levente": 0,
+     "Ádám": 18,
+     "Botond": 0
+    },
+    {
+     "Apa": 0,
+     "Levente": 0,
+     "Ádám": 1,
+     "Botond": 17
+    },
+    {
+     "Apa": 1,
+     "Levente": 13,
+     "Ádám": 0,
+     "Botond": 4
+    },
+    {
+     "Apa": 13,
+     "Levente": 0,
+     "Ádám": 2,
+     "Botond": 3
+    },
+    {
+     "Apa": 8,
+     "Levente": 10,
+     "Ádám": 0,
+     "Botond": 0
+    },
+    {
+     "Apa": 3,
+     "Levente": 0,
+     "Ádám": 15,
+     "Botond": 0
+    },
+    {
+     "Apa": 11,
+     "Levente": 7,
+     "Ádám": 0,
+     "Botond": 0
+    },
+    {
+     "Apa": 0,
+     "Levente": 3,
+     "Ádám": 15,
+     "Botond": 0
+    },
+    {
+     "Apa": 0,
+     "Levente": 5,
+     "Ádám": 0,
+     "Botond": 13
+    },
+    {
+     "Apa": 13,
+     "Levente": 5,
+     "Ádám": 0,
+     "Botond": 0
+    },
+    {
+     "Apa": 0,
+     "Levente": 16,
+     "Ádám": 0,
+     "Botond": 2
+    },
+    {
+     "Apa": 2,
+     "Levente": 13,
+     "Ádám": 3,
+     "Botond": 0
     }
    ]
   },

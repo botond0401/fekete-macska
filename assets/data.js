@@ -7,7 +7,7 @@ export async function loadData() {
   const res = await fetch(DATA_URL, { cache: "no-store" });
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
   const data = await res.json();
-  data.games.sort((a, b) => a.date.localeCompare(b.date));
+  data.games.sort((a, b) => a.date.localeCompare(b.date) || a.id.localeCompare(b.id));
   return data;
 }
 

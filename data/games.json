@@ -111,6 +111,98 @@
    ]
   },
   {
+   "id": "2023-12-26-1",
+   "date": "2023-12-26",
+   "location": "Szombathely",
+   "seating": [
+    "Ádám",
+    "Botond",
+    "Levente",
+    "Apa"
+   ],
+   "starter": "Apa",
+   "rounds": [
+    {
+     "Apa": 0,
+     "Levente": 3,
+     "Ádám": 4,
+     "Botond": 11
+    },
+    {
+     "Apa": 0,
+     "Levente": 18,
+     "Ádám": 0,
+     "Botond": 0
+    },
+    {
+     "Apa": 17,
+     "Levente": 1,
+     "Ádám": 0,
+     "Botond": 0
+    },
+    {
+     "Apa": 2,
+     "Levente": 4,
+     "Ádám": 0,
+     "Botond": 12
+    },
+    {
+     "Apa": 0,
+     "Levente": 0,
+     "Ádám": 18,
+     "Botond": 0
+    },
+    {
+     "Apa": 0,
+     "Levente": 0,
+     "Ádám": 5,
+     "Botond": 13
+    },
+    {
+     "Apa": 2,
+     "Levente": 9,
+     "Ádám": 0,
+     "Botond": 7
+    },
+    {
+     "Apa": 1,
+     "Levente": 0,
+     "Ádám": 0,
+     "Botond": 17
+    },
+    {
+     "Apa": 7,
+     "Levente": 0,
+     "Ádám": 4,
+     "Botond": 7
+    },
+    {
+     "Apa": 12,
+     "Levente": 1,
+     "Ádám": 5,
+     "Botond": 0
+    },
+    {
+     "Apa": 1,
+     "Levente": 8,
+     "Ádám": 0,
+     "Botond": 9
+    },
+    {
+     "Apa": 11,
+     "Levente": 0,
+     "Ádám": 0,
+     "Botond": 7
+    },
+    {
+     "Apa": 0,
+     "Levente": 0,
+     "Ádám": 1,
+     "Botond": 17
+    }
+   ]
+  },
+  {
    "id": "2026-11-06-1",
    "date": "2026-11-06",
    "location": "Dortmund",

@@ -1,4 +1,4 @@
-import { loadData, finalScores, placements, seatingLabel, allSeatingLabels, fmt } from "./data.js";
+import { loadData, finalScores, placements, seatingLabel, allSeatingLabels, shortDate, fmt } from "./data.js?v=20261110121046";
 
 const theadEl = document.getElementById("thead");
 const tbodyEl = document.getElementById("tbody");
@@ -6,14 +6,6 @@ const statusEl = document.getElementById("status");
 const summaryHeadEl = document.getElementById("summary-head");
 const summaryBodyEl = document.getElementById("summary-body");
 const switchEl = document.getElementById("summary-switch");
-
-function shortDate(iso) {
-  if (!iso) return "ismeretlen";
-  const [y, m, d] = iso.split("-").map(Number);
-  const opts = { month: "short", day: "numeric" };
-  if (y !== new Date().getFullYear()) opts.year = "numeric";
-  return new Date(y, m - 1, d).toLocaleDateString("hu-HU", opts);
-}
 
 function renderGames(players, games) {
   theadEl.innerHTML = `<tr><th>Dátum</th><th>Helyszín</th>${players.map(p => `<th>${p}</th>`).join("")}`

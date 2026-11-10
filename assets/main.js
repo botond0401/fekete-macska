@@ -1,4 +1,4 @@
-import { loadData, playerStats, formatDate, daysSince, fmt } from "./data.js";
+import { loadData, playerStats, finalScores, shortDate, daysSince, fmt } from "./data.js?v=20261110121046";
 
 const statusEl = document.getElementById("status");
 const rankingEl = document.getElementById("ranking");
@@ -70,8 +70,21 @@ toggleBtn.addEventListener("click", () => {
     }
     const last = [...games].reverse().find(g => g.date)?.date;
     if (last) {
-      document.getElementById("last-date").textContent = formatDate(last);
+      document.getElementById("last-date").textContent = shortDate(last);
       document.getElementById("last-ago").textContent = agoText(daysSince(last));
+    }
+
+    // Lowest final score ever; on a tie the earliest game wins the title.
+    let best = null;
+    for (const g of games) {
+      const totals = finalScores(g, data.players);
+      for (const p of data.players) {
+        if (!best || totals[p] < best.score) best = { score: totals[p], player: p, date: g.date };
+      }
+    }
+    if (best) {
+      document.getElementById("best-score").textContent = best.score;
+      document.getElementById("best-who").textContent = `${best.player} · ${shortDate(best.date)}`;
     }
 
     const stats = playerStats(data);

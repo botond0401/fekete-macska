@@ -1,6 +1,6 @@
 import {
   loadData, finalScores, placements, cumulative, formatDate, seatingLabel, seatingOrder, playerGameCounts, ROUND_TOTAL,
-} from "./data.js";
+} from "./data.js?v=20261110121046";
 
 const statusEl = document.getElementById("status");
 

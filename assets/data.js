@@ -104,6 +104,15 @@ export function formatDate(iso) {
   return new Date(y, m - 1, d).toLocaleDateString("hu-HU", { year: "numeric", month: "long", day: "numeric" });
 }
 
+// Short form for compact spots; the year is dropped when it's the current one.
+export function shortDate(iso) {
+  if (!iso) return "ismeretlen";
+  const [y, m, d] = iso.split("-").map(Number);
+  const opts = { month: "short", day: "numeric" };
+  if (y !== new Date().getFullYear()) opts.year = "numeric";
+  return new Date(y, m - 1, d).toLocaleDateString("hu-HU", opts);
+}
+
 export function daysSince(iso) {
   const [y, m, d] = iso.split("-").map(Number);
   const then = new Date(y, m - 1, d);
